@@ -1,0 +1,25 @@
+.team {
+    padding: 20px;
+    margin: 20px;
+    /* border: 1px solid lightsalmon; */
+    border-radius: 5px;
+    background-color: floralwhite;
+
+}
+.team img{
+height: 80px;
+}
+
+.team button {
+    color: whitesmoke;
+    padding: 8px 20px;
+    background-color: #0000a0;
+    border: none;
+}
+.team button:hover {
+    background: #000;
+}
+
+.team .font-icon {
+    margin-left: 8px ;
+}

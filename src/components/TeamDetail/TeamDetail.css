@@ -1,0 +1,35 @@
+.team-details {
+    padding: 20px;
+    margin: 20px;
+}
+.team-card {
+    text-align: left;
+    color: floralwhite;
+    display: grid;
+    grid-template-columns: auto auto;
+    background: darkslateblue;
+    padding: 20px;
+    margin: 20px!important;
+    border-radius: 20px;
+}
+
+.team-card img {
+    height: 200px;
+}
+.team-description {
+    padding: 20px;
+    margin: 20px; 
+}
+.font-team {
+    margin-right: 8px;
+}
+.team-description p {
+    color: floralwhite;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .team-card img {
+        height: 100px;
+    }
+  }
