@@ -13,8 +13,8 @@
 .team-card {
     text-align: left;
     color: floralwhite;
-    display: grid;
-    grid-template-columns: auto auto;
+    /* display: grid;
+    grid-template-columns: auto auto; */
     background: darkblue;
     padding: 20px;
     margin: 20px!important;
