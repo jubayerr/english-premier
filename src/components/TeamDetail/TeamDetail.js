@@ -20,7 +20,7 @@ const TeamDetail = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setTeamDetails(data.teams[0]))
-    }, [])
+    }, [teamId])
     let ShowImage
     if (strGender === 'Male') {
         ShowImage = male
