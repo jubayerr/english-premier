@@ -2,12 +2,22 @@
     padding: 20px;
     margin: 20px;
 }
+.team-logo {
+    background: darkblue;
+    padding: 20px;
+    margin: 10px 20px!important;
+    border-radius: 20px;
+}
+.team-logo img {
+    height: 100px;
+}
+
 .team-card {
     text-align: left;
     color: floralwhite;
     display: grid;
     grid-template-columns: auto auto;
-    background: darkslateblue;
+    background: darkblue;
     padding: 20px;
     margin: 20px!important;
     border-radius: 20px;
@@ -15,6 +25,11 @@
 
 .team-card img {
     height: 200px;
+}
+.team-description .team-desc-img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
 }
 .team-description {
     padding: 20px;
@@ -28,7 +43,23 @@
     text-align: justify;
 }
 
+.team-details .icon-list a img {
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+.team-details .icon-list a {
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+    .team-card {
+        text-align: center;
+    }
     .team-card img {
         height: 100px;
     }
