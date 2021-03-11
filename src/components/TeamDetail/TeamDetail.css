@@ -10,7 +10,6 @@
 .team-logo img {
     height: 100px;
 }
-
 .team-card {
     text-align: left;
     color: floralwhite;
@@ -21,9 +20,8 @@
     margin: 20px!important;
     border-radius: 20px;
 }
-
 .team-card img {
-    height: 200px;
+    width: 100%;
 }
 .team-description .team-desc-img {
     width: 100%;
