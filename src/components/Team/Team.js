@@ -9,7 +9,7 @@ const Team = (props) => {
     const { strTeamBadge, strTeam, strLeague, idTeam } = props.team
     return (
         <div className="team">
-            <img src={strTeamBadge} />
+            <img src={strTeamBadge} alt="img" />
             <h2>{strTeam}</h2>
             <p>{strLeague}</p>
             <Link to={`team/${idTeam}`}><button >Explore<FontAwesomeIcon className="font-icon" icon={faArrowRight} /></button></Link>

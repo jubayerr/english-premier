@@ -33,7 +33,7 @@ const TeamDetail = () => {
             <div className="team-logo row">
                 <div className="col">
                     {
-                        <img src={strTeamBadge} alt="" />
+                        <img src={strTeamBadge} alt="badge" />
                     }
                 </div>
             </div>
@@ -47,19 +47,19 @@ const TeamDetail = () => {
                 </div>
                 <div className="team-banner col-md-6">
                     {
-                        <img src={ShowImage} />
+                        <img src={ShowImage} alt="gender" />
                     }
                 </div>
             </div>
 
             <div className="team-description">
-                <img className="team-desc-img" src={strTeamBanner} />
+                <img className="team-desc-img" src={strTeamBanner} alt="icon" />
                 <p><strong>Club Description :</strong></p>
                 <p>{strDescriptionEN}</p>
                 <div className="icon-list">
-                    <span><a href={'https://' + strTwitter}><img src={twitterIcon} /></a></span>
-                    <span><a href={'https://' + strYoutube}><img src={youtubeIcon} /></a></span>
-                    <span><a href={'https://' + strWebsite}><img src={facebookIcon} /></a></span>
+                    <span><a href={'https://' + strTwitter}><img src={twitterIcon} alt="icon" /></a></span>
+                    <span><a href={'https://' + strYoutube}><img src={youtubeIcon} alt="icon" /></a></span>
+                    <span><a href={'https://' + strWebsite}><img src={facebookIcon} alt="icon" /></a></span>
                 </div>
             </div>
         </div>
