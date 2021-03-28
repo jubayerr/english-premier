@@ -12,7 +12,7 @@ import { faHome, faFlagCheckered, faFutbol, faUser } from '@fortawesome/free-sol
 const TeamDetail = () => {
     const { teamId } = useParams()
     const [teamDetails, setTeamDetails] = useState([])
-    const { strTeam, intFormedYear, strCountry, strSport, strGender, strTeamBadge, strTeamBanner, strDescriptionEN, strTwitter, strWebsite, strYoutube } = teamDetails
+    const { strTeam, intFormedYear, strCountry, strSport, strGender, strTeamBadge, strTeamBanner, strTeamFanart4, strDescriptionEN, strTwitter, strWebsite, strYoutube } = teamDetails
     // console.log(teamDetails);
 
     useEffect(() => {
@@ -47,7 +47,7 @@ const TeamDetail = () => {
                 </div>
                 <div className="team-banner col-md-6">
                     {
-                        <img src={ShowImage} alt="gender" />
+                        <img src={strTeamFanart4} alt="gender" />
                     }
                 </div>
             </div>

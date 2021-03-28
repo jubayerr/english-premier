@@ -4,11 +4,11 @@
 .team-logo {
     background: darkblue;
     padding: 20px;
-    margin: 10px 20px!important;
+    margin: 20px!important;
     border-radius: 20px;
 }
 .team-logo img {
-    height: 100px;
+    height: 180px;
 }
 .team-card {
     text-align: left;
@@ -22,6 +22,7 @@
 }
 .team-card img {
     width: 100%;
+    border-radius: 10px;
 }
 .team-description .team-desc-img {
     width: 100%;
@@ -57,7 +58,7 @@
     .team-card {
         text-align: center;
     }
-    .team-card img {
-        width: 100%;
+    .team-logo img {
+        height: 120px;
     }
   }
